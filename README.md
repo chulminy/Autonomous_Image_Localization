@@ -22,7 +22,7 @@ The authors thank Kevin Brower and Harry Tidrick at the Bowen lab for placing an
 
 ## Source Code & Data
 * All source code are released in this repository. 
-* You can download original images and result files from this link [[**Link**]]().  
+* You can download original images and result files from this link [[**Link**]](https://www.amazon.com/clouddrive/share/EXfufKpHtAIS22ewYNi7q7p30yr4woC9sS09ShYE8zB?ref_=cd_ph_share_link_copy).  
 * All three datasets are published through this link, but, result images of 'dataset1' are only inlcluded.  
 * If you use the codes and images for your publication, **please cite my paper(s).**
 
@@ -31,7 +31,8 @@ The authors thank Kevin Brower and Harry Tidrick at the Bowen lab for placing an
 **Display the result images in the paper**  
 
 1. Clone (or download) the source code in Github into a directory of your choice (say, *baseFolder*). 
-2. Download and unzip 'Dataset1.zip' and place them in 'data' folder in *baseFolder*. 
+2. Make a folder of 'data' in *baseFolder*.
+2. Download files(and folders) in `dataset1` and place them in 'data' folder in *baseFolder*. 
 3. Run `RunOutput.m`. 
 
 **Do it your own images**  
