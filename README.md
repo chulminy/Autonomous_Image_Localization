@@ -61,14 +61,14 @@ This image shows that how M is accurately estimated. Please refer to equations i
 ### Re-projection of the reference point to one of images
 A point of a marker (called reference point) is selected on each of image (red circle). Then, corresponding 3D point (Xs) in SfM coordinate is estimated using a set of these points across multiple images. If Xs are correctly estimated from the points, P x Xs are projected on the same point of the reference point on the image (green circle). We estimate the M matrix using a set of Xs and Xt using 7-parameter transformation. If M is correctly estimated, XT is also projected on the same point of the reference point using transformed projection matrix (P x inv(M)). This image explains that they are projected at the almost similar image point, 
 
-![](post/projection.jpg);
+![](post/projection.jpg)
 
 
 ### Localized Region-of-interest on each images
 These images shows several results showing localized ROIs on the images. Only the TRIs close to the camera location (having sufficient ROI size) are selected as valid ROIs. 
 
-<img src="post/DSC_0001.JPG" width="280"/> <img src="post/DSC_0004.JPG" width="280"/>
-<img src="post/DSC_0007.JPG" width="280"/>  
+<img src="post/DSC_0001.JPG" width="290"/> <img src="post/DSC_0004.JPG" width="290"/>
+<img src="post/DSC_0007.JPG" width="290"/>  
 
 
 ### Regions-of-interest (ROIs) corresponding to the identical TRI, which are extracted from different images
