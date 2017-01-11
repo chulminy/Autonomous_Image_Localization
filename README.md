@@ -32,7 +32,7 @@ The authors thank Kevin Brower and Harry Tidrick at the Bowen lab for placing an
 
 1. Clone (or download) the source code in Github into a directory of your choice (say, *baseFolder*). 
 2. Make a folder of 'data' in *baseFolder*.
-2. Download files(and folders) in `dataset1` and place them in 'data' folder in *baseFolder*. 
+2. Download a folder of `dataset1` and place the contents (folders of `in` and `out`) in 'data' folder in *baseFolder*. 
 3. Run `RunOutput.m`. 
 
 **Do it your own images**  
