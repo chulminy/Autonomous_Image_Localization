@@ -67,8 +67,8 @@ A point of a marker (called reference point) is selected on each of image (red c
 ### Localized Region-of-interest on each images
 These images shows several results showing localized ROIs on the images. Only the TRIs close to the camera location (having sufficient ROI size) are selected as valid ROIs. 
 
-<img src="post/DSC_0001.JPG" width="300"/> <img src="post/DSC_0004.JPG" width="300"/>
-<img src="post/DSC_0007.JPG" width="300"/>  
+<img src="post/DSC_0001.JPG" width="280"/> <img src="post/DSC_0004.JPG" width="280"/>
+<img src="post/DSC_0007.JPG" width="200"/>  
 
 
 ### Regions-of-interest (ROIs) corresponding to the identical TRI, which are extracted from different images
