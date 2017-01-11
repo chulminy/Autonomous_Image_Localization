@@ -47,7 +47,7 @@ end
 
 %% Include external codes
 folderExternal = 'external';
-addpath(genpath(folderExternal));
+if ~exist(folderExternal); mkdir(folderExternal); end;
 addpath(genpath('misc'));
 
 %% Installation of a VLFEAT toolbox (one-time process)
