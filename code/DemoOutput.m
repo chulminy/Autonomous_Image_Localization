@@ -1,5 +1,4 @@
-% This file is to plot intermediate and final outcomes.All plotted images
-% will be saved in folderOut.
+% All plotted images will be saved in folderOutcome.
 
 DemoCode;
 

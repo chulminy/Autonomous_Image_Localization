@@ -28,14 +28,15 @@ The authors thank Kevin Brower and Harry Tidrick at the Bowen lab for placing an
 
 ## Setup
 
-**Display the result images in the paper**  
+### Display the result images in the paper  
 
 1. Clone (or download) the source code in Github into a directory of your choice (say, *baseFolder*). 
-2. Create a folder of `data` in *baseFolder*.
-2. Download `in.zip` and `out.zip` in `data` folder and unzip them.  
+2. Create a folder of `data` in *baseFolder*. Then, you will see `code`, `data`, `info` and `post` foders in *baseFolder*
+3. Go to `dataset1`
+2. Download `in.zip` and `out.zip` in `data` folder and unzip them. 
 3. Run `RunOutput.m`. 
 
-**Do it your own images**  
+### Do it your own images  
 Please contact me or submit "issues" in this repository, and I can help you in person. 
 
 ## Sample Results 

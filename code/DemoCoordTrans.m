@@ -1,35 +1,33 @@
 %% Coordinate Transformation
 %
-% This code is to find M (7-parameter transformation matrix) by
+% This code is to compute M (7-parameter transformation matrix) by
 % corresponding reference points, preliminarily defined by a user using a
 % 3D drawing or manual maeasurement, to the 3D points registered in SfM
 % models. To register 3D points in SfM models, the user manually coorespond
 % same points on multiple images. In this study, 12 reference points are
 % defined in advance. This means you need to register 12 points in the SfM
-% model. Some sfm softwares deployed an interactive interface in 3D sfM
-% model to make it easy to this process. However, personally, working in 3D
-% is very laggy and asking you special skill (?). This tool support you to
-% relatively easy and fast to register these points.
+% model. This tool support you to relatively easy and fast to register
+% these points.
 %
 % First, you will add images that include a specific reference point to the
-% corresponding folder in "out-refer". 3~6 images are enough. I drawed
+% corresponding folder in "out"-"refer". 3~6 images are enough. I drawed
 % small cicular dots on the truss and those are our reference points. Since
-% the images were consecutively captured, you can easily put those images
-% in a certain folder. See the images in the folders of "out-refer-1~12'.
-% Then, run this code. Note that YOU ARE GOING TO USE UNDISTORTED IMAGES
-% !!! not original input images. However, It doesn't matter whether you add
-% original images or undistorted images in the folders in "refer". Images
-% are automatically loaded from folderOutImgUndist.
+% the images were consecutively captured, you can easily select valid those
+% images in a certain folder. See the images in the folders of
+% "out"-"refer-("1"~"12'. Then, run this code. Note that you are going to
+% pick a point on UNDISTORTED IMAGES! no mater the images in a folder of
+% "refer" is original or undistorted images. Images are automatically
+% loaded from folderOutImgUndist. This means you need to run "DemoCode.m"
+% first before this process.
 %
-% I used 12 reference points for this study but theoretically, you need to
-% have more three points for cooridnate transformationif they are not
-% collinear. To register 3D points in SfM, I uses several images for
-% increasing the accuracy. Theoretically, you just use more than 2 images.
+% I used 12 reference points for this study but theoretically, you have
+% more three points for cooridnate transformation. Also, To register 3D
+% points in SfM, I uses several images for increasing the accuracy.
+% However, theoretically, you just use more than 2 images.
 %
 % This code help the user to easily register these points. Please
 % watch this video if you have no idea:
-%
-%
+%%
 %% Initialization ---------------------------------------------------------
 Parameters;
 
