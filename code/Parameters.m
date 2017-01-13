@@ -91,7 +91,7 @@ end; clearvars pdol_link
 % http://www.robots.ox.ac.uk/~vgg/hzbook/code/
 mv_link = 'http://www.robots.ox.ac.uk/~vgg/hzbook/code/allfns.zip';
 if  ~exist(fullfile(folderExternal,'allfns'),'dir')
-    unzip(mv_link,folderExternal);
+    unzip(mv_link,fullfile(folderExternal,'allfns'));
     addpath(genpath(fullfile(folderExternal,'allfns'))); 
 else
     addpath(genpath(fullfile(folderExternal,'allfns'))); 
