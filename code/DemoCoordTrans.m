@@ -27,7 +27,8 @@
 %
 % This code help the user to easily register these points. Please
 % watch this video if you have no idea:
-%%
+% https://youtu.be/VWMunbDpI5Q
+
 %% Initialization ---------------------------------------------------------
 Parameters;
 
