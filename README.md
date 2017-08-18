@@ -7,11 +7,11 @@ Low-cost, high-performance vision sensors in conjunction with aerial sensing pla
 
 ## Publication
 
-* **Chul Min Yeum**, Jongseong Choi, and Shirley J. Dyke. “Autonomous image localization for visual inspection of civil infrastructure” ***accepted for Smart Materials and Structures*** (December,2016). **Please send me an email to read this paper before it is available in online.** 
+4. **Chul Min Yeum**, Jongseong Choi, and Shirley J. Dyke. “Autonomous image localization for visual inspection of civil infrastructure.” Smart Materials and Structures 26, no. 3 (Feburary 21, 2017). [**[Web]**](http://iopscience.iop.org/article/10.1088/1361-665X/aa510e/meta), [**[Project]**](https://chulminy.github.io/research/autonomous_image_localization/),[**[Github]**](https://github.com/chulminy/Autonomous_Image_Localization).
 
 * **Chul Min Yeum**,  Jongseong Choi, and Shirley J. Dyke. “Image localization for computer-enhanced visual inspection of civil infrastructure," ***submitted to Engineering Mechanics Institute (EMI) Conference***, San Diego, CA, June 4-7 2017. 
 
-* **Chul Min Yeum**. “Computer Vision-Based Structural Assessment Exploiting Large Volumes of Images,"  (Doctoral dissertation), Lyles School of Civil Engineering, Purdue University, West Lafayette, Indiana, USA, December 2016. [**[PPT]**](Files\Dissertation\2016_PhD_Defence_CM_Final.pdf).
+* **Chul Min Yeum**. “Computer Vision-Based Structural Assessment Exploiting Large Volumes of Images,"  (Doctoral dissertation), Lyles School of Civil Engineering, Purdue University, West Lafayette, Indiana, USA, December 2016. [**[Paper]**](Files\Dissertation\2016_PhD_Dissertation_CM.pdf),[**[Web]**](http://search.proquest.com/docview/1881518963?pq-origsite=gscholar),[**[PPT]**](Files\Dissertation\2016_PhD_Defence_CM_Final.pdf).
 
 ## Collaborators
 * [**Shirley J. Dyke**](https://engineering.purdue.edu/IISL/)
@@ -22,7 +22,7 @@ The authors thank Kevin Brower and Harry Tidrick at the Bowen lab for placing an
 
 ## Source Code & Data
 * All source code are released in this repository. 
-* You can download original images and result files from this link [[**Link**]](https://www.amazon.com/clouddrive/share/EXfufKpHtAIS22ewYNi7q7p30yr4woC9sS09ShYE8zB?ref_=cd_ph_share_link_copy).  
+* You can download original images and result files from this link [[**Link**]](https://drive.google.com/drive/folders/0B_TRFpAMtOTPeS1ZSU1PSE5iWlU?usp=sharing).  
 * All three datasets are published through this link, but, result images of 'dataset1' are only inlcluded.  
 * If you use the codes and images for your publication, **please cite my paper(s).**
 

@@ -118,7 +118,7 @@ if doCoordinateTransformation
             imgIdx  = imgRefer.imgIdx(ii);
             P{ii}   = ImgStruct(imgIdx).P;
             % Attention! the order is different in
-            % "vgg_X_from_xP_nonline.m"
+            % "vgg_X_from_xP_nonlin.m"
             imSize(:,ii)  = flipud(ImgStruct(imgIdx).imgSize');
         end
         X  = vgg_X_from_xP_nonlin(u,P,imSize);
